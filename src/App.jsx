@@ -1,9 +1,11 @@
+import Hero from './components/Hero/Hero';
+import NavBar from './components/Nav/NavBar';
+
 const App = () => {
 	return (
-		<div className='App'>
-			<h1 className=''>
-				Hola mundo
-			</h1>
+		<div className='font-Rubik'>
+			<NavBar></NavBar>
+			<Hero></Hero>
 		</div>
 	);
 };
