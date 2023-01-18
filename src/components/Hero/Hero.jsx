@@ -3,7 +3,7 @@ import IllustrationHero from '../../assets/icons/illustration-hero.svg';
 
 const Hero = params => {
 	return (
-		<main>
+		<main className='my-8'>
 			<div className='relative'>
 				<img
 					src={IllustrationHero}

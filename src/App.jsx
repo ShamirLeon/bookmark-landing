@@ -1,3 +1,4 @@
+import Features from './components/Features/Features';
 import Hero from './components/Hero/Hero';
 import NavBar from './components/Nav/NavBar';
 
@@ -6,6 +7,7 @@ const App = () => {
 		<div className='font-Rubik'>
 			<NavBar></NavBar>
 			<Hero></Hero>
+			<Features></Features>
 		</div>
 	);
 };
