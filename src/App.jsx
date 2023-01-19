@@ -1,3 +1,4 @@
+import Contact from './components/Contact/Contact';
 import Extension from './components/ExtensionC/Extension';
 import FAQSC from './components/FAQS/FAQS';
 import Features from './components/Features/Features';
@@ -12,6 +13,7 @@ const App = () => {
 			<Features />
 			<Extension />
 			<FAQSC />
+			<Contact></Contact>
 		</div>
 	);
 };
