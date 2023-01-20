@@ -9,7 +9,7 @@ const Contact = params => {
 			<input
 				type='email'
 				placeholder='Enter your e-mail address'
-				className='mt-8 w-full rounded-md py-3 placeholder:px-2'
+				className='mt-8 w-full rounded-md p-3 text-black placeholder:px-2 '
 			/>
 			<button className='mx-auto mt-4 block w-full rounded-md bg-SoftRed py-3'>
 				Contact Us
