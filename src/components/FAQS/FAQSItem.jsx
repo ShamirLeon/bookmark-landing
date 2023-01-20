@@ -6,7 +6,7 @@ const FAQSItem = ({ question, answer, open, toggle }) => {
 	return (
 		<div>
 			<button
-				className='w-min-[320px] flex w-[340px] items-center justify-between border-b-[1px] border-b-GrayishBlue py-5 px-1'
+				className='w-min-[320px] mx-auto flex w-[330px] items-center justify-between border-b-[1px] border-b-GrayishBlue py-5 px-1'
 				onClick={toggle}
 			>
 				<p>{question}</p>

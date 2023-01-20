@@ -26,7 +26,7 @@ const FAQSC = params => {
 					toggle={() => toggle(index)}
 				/>
 			))}
-			<button className='my-4 rounded-md bg-SoftBlue py-3 px-5 text-lg font-medium text-white shadow-lg'>
+			<button className='my-4 rounded-md bg-SoftBlue py-3 px-5 text-base font-medium text-white shadow-lg'>
 				More Info
 			</button>
 		</section>
