@@ -19,12 +19,12 @@ const Extension = params => {
 			{extension.items.map((element, index) => (
 				<div
 					key={index}
-					className='mx-auto my-16 flex max-w-[90%] flex-col items-center gap-2 overflow-hidden rounded-md py-6 shadow-lg'
+					className='mx-auto my-16 flex max-w-[80%] flex-col items-center gap-2 overflow-hidden rounded-md py-6 shadow-lg'
 				>
 					<img
 						src={Logos[index]}
 						alt={element.title}
-						className='my-3 max-w-[150px]'
+						className='my-3 max-w-[80px]'
 					/>
 					<ExtensionItem
 						title={element.title}
