@@ -21,14 +21,14 @@ const Hero = params => {
 				<div className='my-8'>
 					<a
 						href='#'
-						className='mx-2 rounded-md bg-SoftBlue py-3 px-3 text-sm font-medium text-white shadow-lg lg:mx-0'
+						className='mx-2 rounded-md border-[1px] border-SoftBlue/0 bg-SoftBlue py-3 px-3 text-sm font-medium text-white shadow-lg transition-all hover:border-SoftBlue/100 hover:bg-white hover:text-SoftBlue lg:mx-0'
 					>
 						Get it on Chrome
 					</a>
 
 					<a
 						href='#'
-						className='mx-2 rounded-md py-3 px-3 text-sm font-medium text-GrayishBlue shadow-lg lg:mx-5'
+						className='mx-2 rounded-md border-[1px] border-black/0 py-3 px-3 text-sm font-medium text-GrayishBlue shadow-lg transition-all hover:border-black/100 hover:text-black lg:mx-5'
 					>
 						Get it on firefox
 					</a>
