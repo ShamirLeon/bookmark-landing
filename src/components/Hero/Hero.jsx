@@ -13,7 +13,7 @@ const Hero = params => {
 			</div>
 			<div className='absolute right-0 top-[200px] -z-50 h-[170px] w-[250px] rounded-l-full bg-SoftBlue lg:top-[230px] lg:h-[300px] lg:w-[500px]'></div>
 			<div className='flex flex-col gap-5 px-7 text-center lg:max-w-[500px] lg:px-0 lg:text-left'>
-				<h1 className='text-2xl font-bold text-DarkBlue lg:text-5xl lg:font-normal'>
+				<h1 className='text-3xl font-bold text-DarkBlue lg:text-5xl lg:font-normal'>
 					{hero.title}
 				</h1>
 				<p className='text-base text-GrayishBlue'>{hero.description}</p>
