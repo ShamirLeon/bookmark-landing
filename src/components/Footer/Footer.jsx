@@ -4,7 +4,7 @@ import IconTwitter from '../../assets/icons/icon-twitter.svg';
 
 const FooterC = () => {
 	return (
-		<footer className='flex flex-col items-center gap-8 bg-DarkBlue py-10'>
+		<footer className='flex flex-col items-center gap-8 bg-DarkBlue py-16'>
 			<Logo />
 			<div className='flex flex-col gap-6 text-center tracking-widest text-GrayishBlue'>
 				<a href='#'>FEATURES</a>

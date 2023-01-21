@@ -1,3 +1,4 @@
+import Atributtion from './components/Atributtion/Atributtion';
 import Contact from './components/Contact/Contact';
 import Extension from './components/ExtensionC/Extension';
 import FAQSC from './components/FAQS/FAQS';
@@ -14,8 +15,9 @@ const App = () => {
 			<Features />
 			<Extension />
 			<FAQSC />
-			<Contact></Contact>
-			<FooterC></FooterC>
+			<Contact/>
+			<FooterC/>
+			<Atributtion/>
 		</div>
 	);
 };
