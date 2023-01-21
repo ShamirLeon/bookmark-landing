@@ -15,9 +15,9 @@ const App = () => {
 			<Features />
 			<Extension />
 			<FAQSC />
-			<Contact/>
-			<FooterC/>
-			<Atributtion/>
+			<Contact />
+			<FooterC />
+			<Atributtion />
 		</div>
 	);
 };
