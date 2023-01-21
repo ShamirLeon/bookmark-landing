@@ -4,15 +4,18 @@ import IconTwitter from '../../assets/icons/icon-twitter.svg';
 
 const FooterC = () => {
 	return (
-		<footer className='flex flex-col items-center gap-8 bg-DarkBlue py-16'>
-			<Logo />
-			<div className='flex flex-col gap-6 text-center tracking-widest text-GrayishBlue'>
-				<a href='#'>FEATURES</a>
-				<a href='#'>PRICING</a>
-				<a href='#'>CONTACT</a>
+		<footer className='flex flex-col items-center gap-8 bg-DarkBlue py-16 lg:flex-row lg:justify-between lg:px-32 lg:py-6'>
+			<div className='flex flex-col gap-8 lg:flex-row'>
+				<Logo />
+
+				<div className='flex flex-col gap-6 text-center tracking-widest text-GrayishBlue lg:flex-row'>
+					<a href='#'>FEATURES</a>
+					<a href='#'>PRICING</a>
+					<a href='#'>CONTACT</a>
+				</div>
 			</div>
 
-			<div className='flex items-center gap-8'>
+			<div className='flex items-center gap-8 '>
 				<a href='https://facebook.com' target='_blank' rel='noreferrer'>
 					<img src={IconFacebook} alt='Facebook' />
 				</a>
