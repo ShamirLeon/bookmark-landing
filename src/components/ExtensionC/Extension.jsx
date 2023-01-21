@@ -11,10 +11,10 @@ const Logos = [ChromeIllustration, FirefoxIllustration, OperaIllustration];
 const Extension = params => {
 	useEffect(() => {
 		const child2 = document.getElementById('itemsCont').children[1];
-		child2.classList.add('my-[30px]');
+		child2.classList.add('lg:my-[30px]');
 
 		const child3 = document.getElementById('itemsCont').children[2];
-		child3.classList.add('my-[60px]');
+		child3.classList.add('lg:my-[60px]');
 	});
 
 	return (
@@ -28,7 +28,10 @@ const Extension = params => {
 				</p>
 			</div>
 
-			<div id='itemsCont' className='mx-auto flex max-w-[1000px]'>
+			<div
+				id='itemsCont'
+				className='mx-auto flex max-w-[1000px] flex-col lg:flex-row'
+			>
 				{extension.items.map((element, index) => (
 					<div
 						key={index}
