@@ -1,6 +1,6 @@
 const Atributtion = () => {
 	return (
-		<div className='fixed bottom-0 w-full bg-DarkBlue py-1 text-center text-sm text-white'>
+		<div className='fixed bottom-0 w-full bg-DarkBlue py-1 text-center text-sm text-white z-50'>
 			<p className=''>
 				Challenge by{' '}
 				<a
