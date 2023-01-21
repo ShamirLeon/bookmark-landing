@@ -21,7 +21,7 @@ const FeaturesItem = ({ features = [] }) => {
 					<button
 						key={index}
 						onClick={() => setTab(index)}
-						className='after:content-[" "] relative border-b-[1px] border-GrayishBlue/50 py-3  text-DarkBlue after:absolute  after:bottom-0 after:right-0 after:left-0 after:mx-auto after:h-1 after:w-[40%] after:bg-SoftRed after:opacity-0 after:transition-all focus:after:opacity-100 lg:px-14 lg:after:w-[100%] hover:text-SoftRed transition-colors'
+						className='after:content-[" "] relative border-b-[1px] border-GrayishBlue/50 py-3  text-DarkBlue after:absolute  after:bottom-0 after:right-0 after:left-0 after:mx-auto after:h-1 after:w-[40%] after:bg-SoftRed after:opacity-0 after:transition-all focus:after:opacity-100 lg:px-14 lg:after:w-[100%] '
 					>
 						{Feature.head}
 					</button>

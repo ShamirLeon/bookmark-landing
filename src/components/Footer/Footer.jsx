@@ -4,14 +4,14 @@ import IconTwitter from '../../assets/icons/icon-twitter.svg';
 
 const FooterC = () => {
 	return (
-		<footer className='flex flex-col items-center gap-8 bg-DarkBlue py-16 lg:flex-row lg:justify-between lg:px-32 lg:py-8'>
+		<footer className='flex flex-col items-center gap-8 bg-DarkBlue py-16 lg:flex-row lg:justify-between lg:px-32 lg:py-6'>
 			<div className='flex flex-col gap-8 lg:flex-row'>
 				<Logo />
 
 				<div className='flex flex-col gap-6 text-center tracking-widest text-GrayishBlue lg:flex-row'>
-					<a href='#' className='hover:text-SoftRed transition-colors'>FEATURES</a>
-					<a href='#' className='hover:text-SoftRed transition-colors'>PRICING</a>
-					<a href='#' className='hover:text-SoftRed transition-colors'>CONTACT</a>
+					<a href='#'>FEATURES</a>
+					<a href='#'>PRICING</a>
+					<a href='#'>CONTACT</a>
 				</div>
 			</div>
 

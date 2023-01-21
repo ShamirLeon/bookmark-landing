@@ -6,15 +6,15 @@ const FAQSItem = ({ question, answer, open, toggle }) => {
 	return (
 		<div className='lg:w-[80%]'>
 			<button
-				className='w-min-[320px] mx-auto flex w-[330px] items-center justify-between border-b-[1px] border-b-GrayishBlue py-5 px-1 lg:w-[80%] hover:text-SoftRed transition-all'
+				className='w-min-[320px] mx-auto flex w-[330px] items-center justify-between border-b-[1px] border-b-GrayishBlue py-5 px-1 lg:w-[80%]'
 				onClick={toggle}
 			>
 				<p>{question}</p>
 				<span>
 					{open ? (
-						<IconArrow className='rotate-180 transition-all duration-500 ease-in stroke-2 stroke-SoftRed' />
+						<IconArrow className='rotate-180 transition-transform duration-500 ease-in' />
 					) : (
-						<IconArrow className='transition-all duration-500 ease-out stroke-2 stroke-SoftBlue' />
+						<IconArrow className='transition-transform duration-500 ease-out' />
 					)}
 				</span>
 			</button>
