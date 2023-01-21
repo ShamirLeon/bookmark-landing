@@ -4,9 +4,9 @@ import IconArrow from '../../assets/icons/IconArrow';
 // eslint-disable-next-line react/prop-types
 const FAQSItem = ({ question, answer, open, toggle }) => {
 	return (
-		<div>
+		<div className='lg:w-[80%]'>
 			<button
-				className='w-min-[320px] mx-auto flex w-[330px] items-center justify-between border-b-[1px] border-b-GrayishBlue py-5 px-1'
+				className='w-min-[320px] mx-auto flex w-[330px] items-center justify-between border-b-[1px] border-b-GrayishBlue py-5 px-1 lg:w-[80%]'
 				onClick={toggle}
 			>
 				<p>{question}</p>
@@ -20,7 +20,9 @@ const FAQSItem = ({ question, answer, open, toggle }) => {
 			</button>
 
 			<Collapse isOpened={open}>
-				<p className='px-2 py-4 text-left'>{answer}</p>
+				<div className='lg:mx-auto lg:w-[80%]'>
+					<p className='px-2 py-4 text-left'>{answer}</p>
+				</div>
 			</Collapse>
 		</div>
 	);

@@ -14,9 +14,15 @@ const FAQSC = params => {
 	};
 
 	return (
-		<section className='flex flex-col items-center gap-5 px-7 text-center'>
-			<h2 className='text-xl  font-bold text-DarkBlue'>{FAQS.title}</h2>
-			<p className='text-base text-GrayishBlue'>{FAQS.description}</p>
+		<section className='mx-auto flex max-w-[1000px] flex-col items-center gap-5 px-7 text-center lg:px-32'>
+			<div className='mt-14 lg:w-4/5'>
+				<h2 className='text-xl font-bold text-DarkBlue lg:text-3xl'>
+					{FAQS.title}
+				</h2>
+				<p className='mt-4 text-base text-GrayishBlue lg:text-lg'>
+					{FAQS.description}
+				</p>
+			</div>
 			{FAQS.questions.map((element, index) => (
 				<FAQSItem
 					key={index}
