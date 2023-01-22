@@ -30,7 +30,7 @@ const Extension = params => {
 
 			<div
 				id='itemsCont'
-				className='mx-auto flex max-w-[1000px] flex-col lg:flex-row'
+				className='mx-auto flex max-w-[1000px] flex-col gap-12 lg:flex-row'
 			>
 				{extension.items.map((element, index) => (
 					<div
