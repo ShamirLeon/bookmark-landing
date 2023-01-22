@@ -1,3 +1,4 @@
+import IconError from '../../assets/icons/IconError'
 import { useState } from 'react';
 
 /* eslint-disable react/no-unescaped-entities */
@@ -36,10 +37,13 @@ const Contact = params => {
 						/>
 						{email ? (
 							''
-						) : (
+							) : (
+								<>
+								<IconError className='absolute top-11 right-2 z-10'></IconError>
 							<span className='absolute left-0 -bottom-6 z-0 w-full rounded-b-md bg-SoftRed px-2 py-1 text-left text-sm'>
 								Whoops, make sure it's an email
 							</span>
+							</>
 						)}
 					</div>
 					<button
