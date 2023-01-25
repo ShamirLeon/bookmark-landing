@@ -1,10 +1,11 @@
 import Logo from '../../assets/icons/Logo'
 import IconClose from '../../assets/icons/IconClose'
 
+// eslint-disable-next-line react/prop-types
 const NavMobile = ({handlerMenu}) => {
 
     return(
-        <div id='menuDiv' className='block w-full h-full absolute bg-DarkBlue/80 z-50 top-30 backdrop-blur-md opacity-100'>
+        <div id='menuDiv' className='block w-full h-full absolute bg-DarkBlue/80 z-50 top-0 backdrop-blur-md opacity-100'>
             <div className=' py-8 flex items-center justify-between border-b-[1px] w-[80%] mx-auto'>
                 <Logo className='scale-110'></Logo>
                 <button onClick={()=> handlerMenu(false)} > 
